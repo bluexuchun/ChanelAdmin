@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+.complex-tab-table {
+  .next-tabs-medium .next-tabs-tab-inner {
+    height: 40px;
+    line-height: 40px;
+  }
+}
+.staticsbox{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  .staticitem{
+    width:50%;
+    display: flex;
+    flex-direction: row;
+    padding:15px 0px;
+    .iconitem{
+      width:40px;
+      height:40px;
+      object-fit: cover;
+      margin-right:10px;
+    }
+    .iteminfo{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      .itemtitle{
+        font-size:13px;
+      }
+      .itemnum{
+        font-size:20px;
+      }
+    }
+  }
+}
+.carditem{
+  font-size:24px;
+}
+.tjword{
+  font-size:22px;
+}
+.more{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding:10px 0px;
+}
+.moreword{
+  cursor: pointer;
+}
+.alertModel{
+  width:34%;
+  max-width:360px;
+  height:200px;
+  position: absolute;
+  top:50%;
+  margin-top:-100px;
+  right:5%;
+  background: #fff;
+  box-shadow: 0px 0px 18px rgba(0,0,0,0.4);
+  z-index:999;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding:10px;
+  box-sizing: border-box;
+}
+.alertClose{
+  width: 15px;
+  position: absolute;
+  top:10px;
+  right:10px;
+  cursor: pointer;
+}
+.alertTitle{
+  width:100%;
+  padding:12px 0px;
+  text-align: center;
+  font-size:22px;
+}
+.alertContent{
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  font-size:20px;
+  .contentItem{
+    width:33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:8px;
+    .itemTitle{
+      margin-bottom:10px;
+    }
+    .itemData{
+      font-size:24px;
+    }
+  }
+}

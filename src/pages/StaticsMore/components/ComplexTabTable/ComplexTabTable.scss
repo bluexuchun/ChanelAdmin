@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.complex-tab-table {
+  .next-tabs-medium .next-tabs-tab-inner {
+    height: 40px;
+    line-height: 40px;
+  }
+}
+.headerright{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.userscore{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.userbox{
+  width:100%;
+  height:100%;
+  overflow: hidden;
+}
+.users{
+  width:100%;
+  overflow: hidden;
+  overflow-y: auto;
+}

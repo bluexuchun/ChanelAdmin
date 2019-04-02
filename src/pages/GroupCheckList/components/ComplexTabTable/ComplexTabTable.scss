@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.complex-tab-table {
+  .next-tabs-medium .next-tabs-tab-inner {
+    height: 40px;
+    line-height: 40px;
+  }
+}
+.primarybtn{
+  position: relative;
+  display: inline-block;
+  font-style: normal;
+  font-family: inherit;
+  background: transparent;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 50px;
+  border-style: solid;
+  text-align: center;
+  margin: 0;
+  height: 28px;
+  padding: 0 16px;
+  font-size: 14px;
+  line-height: 26px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #2077FF;
+  border-color: transparent;
+  color:#fff;
+  margin-left:8px;
+}
+.primarybtn:link{
+  color:#fff;
+}
